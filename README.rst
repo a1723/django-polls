@@ -10,7 +10,7 @@ Detailed documentation is in the "docs" directory.
 Quick start
 -----------
 
-0. ```git clone https://github.com/a1723/django-polls && cd django-polls```
+0. ``git clone https://github.com/a1723/django-polls && cd django-polls``
 
 1. Add "polls" to your INSTALLED_APPS setting like this ::
 
