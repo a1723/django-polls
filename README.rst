@@ -10,12 +10,14 @@ Detailed documentation is in the "docs" directory.
 Quick start
 -----------
 
-1. Add "polls" to your INSTALLED_APPS setting like this::
+1. Add "polls" to your INSTALLED_APPS setting like this ::
 
     INSTALLED_APPS = [
         ...
         'polls',
     ]
+
+DON'T ADD polls to INSTALLED_APPS if you already have note is INSTALLED_APPS like: 'polls.apps.PollsConfig'
 
 2. Include the polls URLconf in your project urls.py like this::
 
