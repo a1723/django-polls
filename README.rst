@@ -19,9 +19,9 @@ Quick start
     python -m venv env
     source env/bin/activate
 
-2. Install django ::
+2. Install requirements.txt ::
     
-    pip install django
+    pip install -r requirements.txt
 
 3. Add "polls" to your INSTALLED_APPS settings like this ::
 
